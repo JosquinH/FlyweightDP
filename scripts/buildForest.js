@@ -16,7 +16,7 @@ class Tree {
 const treeName = ['classique','fruitier','baobab','palmier','sapin','sakura']
 const treeNameSize = treeName.length
 
-const TREE_NUMBER = ((CANVAS_WIDTH*CANVAS_HEIGHT)/1024) * 4
+const TREE_NUMBER = ((CANVAS_WIDTH*CANVAS_HEIGHT)/1024) * 10
 
 const forest = []
 
