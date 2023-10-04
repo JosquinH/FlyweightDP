@@ -1,3 +1,7 @@
+/**
+ * INITIALISATION CANVAS
+ */
+
 const CANVAS_WIDTH = window.innerWidth
 const CANVAS_HEIGHT = window.innerHeight
 
@@ -6,6 +10,10 @@ const ctx = canvas.getContext("2d");
 
 ctx.canvas.width = CANVAS_WIDTH
 ctx.canvas.height = CANVAS_HEIGHT
+
+/**
+ * CLASS FLYWEIGHT ( état intrinsèque)
+ */
 
 class FlyweightTree {
     constructor (treeName) {
@@ -37,6 +45,10 @@ class FlyweightTree {
     }
     
 }
+
+/**
+ * Classe FlyweightFactory
+ */
 
 class FlyweightTreeFactory {
     constructor () {

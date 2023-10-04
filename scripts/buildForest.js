@@ -1,4 +1,12 @@
+/**
+ * Initialisation FlyweightFactory
+ */
+
 const factory = new FlyweightTreeFactory() 
+
+/**
+ * Classe Context
+ */
 
 class Tree {
     constructor (x,y,treeName) {
@@ -12,6 +20,10 @@ class Tree {
     }
 
 }
+
+/**
+ * Remplissage de la canvas
+ */
 
 const treeName = ['classique','fruitier','baobab','palmier','sapin','sakura']
 const treeNameSize = treeName.length
